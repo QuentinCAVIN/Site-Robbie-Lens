@@ -6,6 +6,10 @@ body {
     color: #F9F8FF;
 }
 
+* {
+    margin: 0;
+}
+
 
 a {
     color: #242424;
@@ -27,12 +31,46 @@ em {
     font-style: normal;
 }
 
-.entete,
-.pied-de-page {
+header,
+footer {
     background-color: white;
+    padding: 20px 50px 20px 50px;
+}
+
+section {
+    padding: 80px;
 }
 
 .hypertext {
     color: white;
     background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 6px;
+}
+
+.a-propos {
+    border-bottom: 1px #8e86b5 solid;
+    border-right: 1px #8e86b5 solid;
+    padding: 50px;
+}
+
+.hypertext:hover {
+    background: linear-gradient(#696484, #8788BA);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.lien-icone:hover {
+    opacity: 0.5;
+}
+
+.center {
+    width: 50%;
+    margin: auto;
+}
+
+.a-propos h2,
+.a-propos ul {
+    margin-top: 30px;
 }
